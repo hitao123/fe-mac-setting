@@ -11,7 +11,8 @@
 ```sh
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew install node git yarn
+brew install node git yarn zsh-autosuggestions
+
 ```
 
 ## 三、IDE 编辑器 & 编辑器插件安装
