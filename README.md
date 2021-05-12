@@ -34,6 +34,31 @@ ssh-keygen
 
 ```
 
+```sh
+
+vi ~/.gitconfig
+
+[user]
+        name = xx
+        email = xx@gmail.com
+[alias]
+        co = checkout
+        br = branch
+        ci = commit
+        st = status
+        unstage = reset HEAD --
+        last = log -1 HEAD
+        gd = git diff --cached
+[filter "lfs"]
+        process = git-lfs filter-process
+        required = true
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+[core]
+        pager = git-split-diffs --color | less -RFX
+
+```
+
 ## 五、安装 oh-my-zsh (可能是地球上最好用的bash)
 
 > zsh 比较好用，有一些好看的主题，还要 tab 填充提示，有助于提升开发效率
