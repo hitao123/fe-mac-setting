@@ -66,6 +66,8 @@ vi ~/.gitconfig
 
 ```
 
+git-lfs  git-split-diffs 需要单独安装
+
 ## 五、安装 oh-my-zsh (可能是地球上最好用的bash)
 
 > zsh 比较好用，有一些好看的主题，还要 tab 填充提示，有助于提升开发效率
