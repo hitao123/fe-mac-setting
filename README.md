@@ -17,9 +17,15 @@ brew install node git yarn zsh-autosuggestions
 
 ## 三、IDE 编辑器 & 编辑器插件安装
 
-> 推荐安装 vscode, 把 vscode recommend 的所有插件安装就可以了, [官网下载](https://code.visualstudio.com/)，可以使用
+> 推荐安装 vscode, 把 vscode recommend 的所有插件安装就可以了, [官网下载](https://code.visualstudio.com/)
+
+
+### vscode 插件同步
+
+> 可以使用
 Settings Sync是一款免费好用的VSCode插件。它是一款使用GitHub中的Gists作为配置文件存储来实现同步的。它可以让我们在无数个设备上同步VSCode的配置，
-具体使用方式参照[插件同步](https://juejin.cn/post/6844904145749540877)
+具体使用方式参照 [插件同步](https://juejin.cn/post/6844904145749540877)
+
 
 ## 四、git 账号配置
 
@@ -111,7 +117,7 @@ npm i nrm -g
 npm config set registry https://registry.npm.taobao.org
 npm config set registry https://registry.npmjs.org/
 
-2. node version settings
+2. node version settings  用来切换不同 node 版本
 
 npm i nvm -g
 
